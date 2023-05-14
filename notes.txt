@@ -1,0 +1,17 @@
+----- RUBY -----
+
+Variable types in Ruby:
+    CONSTANT_VARIABLE - Constant variable;
+        Can but should not be changed
+
+    $global_variable - Global variable;
+        Available througout the app (overrides scope boundries)
+
+    @@class_varaible - Class variable;
+        Only accessible by instances of the class and the class itself.
+        Initialized at class level
+
+    @instance_variable - Instance variable;
+        Only accessible by the specific instance (can cross some scope boundries)
+
+    local_variable - Local variable;
